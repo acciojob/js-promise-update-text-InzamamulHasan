@@ -7,6 +7,4 @@ let prom=new Promise((resolve,reject)=>{
 })
 prom.then((ans)=>{
 	data.textContent=ans;
-})cath((err)=>{
-	console.log("err",err);
 })
